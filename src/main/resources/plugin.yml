@@ -1,0 +1,4 @@
+name: StaySafe
+version: '${project.version}'
+main: de.godcipher.staysafe.StaySafe
+api-version: '1.13'

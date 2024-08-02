@@ -1,0 +1,2 @@
+# The time in minutes after which the user is considered inactive
+inactive-time: 5
