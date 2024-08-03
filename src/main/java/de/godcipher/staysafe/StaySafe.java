@@ -1,6 +1,6 @@
 package de.godcipher.staysafe;
 
-import de.godcipher.staysafe.afk.ActivityTracker;
+import de.godcipher.staysafe.tracker.ActivityTracker;
 import de.godcipher.staysafe.listener.PlayerListener;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;

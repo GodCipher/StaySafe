@@ -1,4 +1,4 @@
-package de.godcipher.staysafe.afk;
+package de.godcipher.staysafe.tracker;
 
 import java.util.HashMap;
 import java.util.Map;

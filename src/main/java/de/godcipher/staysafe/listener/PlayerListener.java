@@ -1,6 +1,6 @@
 package de.godcipher.staysafe.listener;
 
-import de.godcipher.staysafe.afk.ActivityTracker;
+import de.godcipher.staysafe.tracker.ActivityTracker;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
