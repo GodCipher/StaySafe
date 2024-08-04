@@ -5,6 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
@@ -37,6 +38,11 @@ public class PlayerListener implements Listener {
     if (activityTracker.isInactive(event.getTarget().getUniqueId())) {
       event.setCancelled(true);
     }
+  }
+
+  @EventHandler
+  public void onJoin(PlayerJoinEvent event) {
+    activityTracker.updateActivity(event.getPlayer().getUniqueId());
   }
 
   @EventHandler
